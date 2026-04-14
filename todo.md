@@ -1,9 +1,29 @@
-- [ ] Verify the provided Instagram URLs and confirm the most reliable embed method for each one.
-- [ ] Integrate https://www.instagram.com/p/DWtQEn9kdvi/ into the portfolio section.
-- [ ] Integrate https://www.instagram.com/reel/DWbb8gCD3vM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
-- [ ] Integrate https://www.instagram.com/reel/DWvYDixgRgh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
-- [ ] Integrate https://www.instagram.com/reel/DVfrWwBEa21/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
-- [ ] Test responsive layout, loading behavior, and fallback states for embedded Instagram content.
-- [ ] Deliver the updated site and note any Instagram platform constraints.
-- [ ] Prepare a copy-paste Windows setup guide for running the Max Media Marketing website locally.
-- [ ] Prepare a copy-paste Ubuntu setup guide for running the Max Media Marketing website locally.
+- [x] Verify the provided Instagram URLs and confirm the most reliable embed method for each one.
+- [x] Integrate https://www.instagram.com/p/DWtQEn9kdvi/ into the portfolio section.
+- [x] Integrate https://www.instagram.com/reel/DWbb8gCD3vM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [x] Integrate https://www.instagram.com/reel/DWvYDixgRgh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [x] Integrate https://www.instagram.com/reel/DVfrWwBEa21/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [x] Test responsive layout, loading behavior, and fallback states for embedded Instagram content.
+- [x] Deliver the updated site and note any Instagram platform constraints.
+- [x] Prepare a copy-paste Windows setup guide for running the Max Media Marketing website locally.
+- [x] Prepare a copy-paste Ubuntu setup guide for running the Max Media Marketing website locally.
+- [x] Define how each provided photo should be used in the redesigned site based on its subject matter and composition.
+- [x] Restyle the website with a modern black-and-red visual system.
+- [x] Upgrade the project to support a simple backend-driven editing workflow.
+- [x] Create a minimal admin editing experience so users can update key website content.
+- [x] Integrate the provided images into the appropriate sections without re-viewing them through the file tool.
+- [x] Test the redesigned site and the editing workflow.
+- [x] Save a new checkpoint and deliver usage instructions.
+- [x] Remove all edit controls and edit access from the public website for non-admin users.
+- [x] Protect the admin editing workflow behind a dedicated password-based login.
+- [x] Ensure only authenticated admin sessions can access content update procedures.
+- [x] Rework the admin entry path so it is separate from the public website experience.
+- [x] Add tests covering password-gated admin access and blocked public editing.
+- [x] Save a new checkpoint and document the domain/admin path constraints for deployment.
+- [x] Remove any remaining public-facing "edit this site" button or similar edit affordance from the frontend HTML and public UI.
+- [x] Audit the frontend for any remaining admin-entry exposure on the public site.
+- [x] Prepare Cloudflare-compatible hosting guidance for this project, including the current backend limitations and the recommended deployment path.
+- [x] Correct Instagram embed URL normalization for post and reel links that include tracking query parameters.
+- [x] Add tests covering Instagram reel and post URL inputs with query strings to ensure embed URLs are generated correctly.
+- [x] Document the selected Instagram embed strategy in code comments or deployment notes so the chosen method is explicit.
+- [ ] Investigate why the previously delivered website files attachment does not match the latest Max Media website download and provide the correct files package.

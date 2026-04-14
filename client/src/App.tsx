@@ -1,24 +1,38 @@
-/*
-Design reminder for this file: Midnight Broadcast Editorial.
-The application shell should default to the dark theme so semantic tokens
-support the cinematic landing page palette and preserve readable contrast.
-*/
-
-import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "@/components/ui/sonner";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import NotFound from "./pages/NotFound";
+import AdminPage from "./pages/Admin";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+
+function isAdminHost() {
+  if (typeof window === "undefined") return false;
+  return window.location.hostname.startsWith("admin.");
+}
 
 function Router() {
+  const adminHost = isAdminHost();
+
+  if (adminHost) {
+    return (
+      <Switch>
+        <Route path="/" component={AdminPage} />
+        <Route path="/admin" component={AdminPage} />
+        <Route path="/404" component={NotFound} />
+        <Route component={AdminPage} />
+      </Switch>
+    );
+  }
+
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/404" component={NotFound} />
-      <Route component={NotFound} />
-    </Switch>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/404" component={NotFound} />
+        <Route component={NotFound} />
+      </Switch>
+
   );
 }
 
