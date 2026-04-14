@@ -1,0 +1,9 @@
+- [ ] Verify the provided Instagram URLs and confirm the most reliable embed method for each one.
+- [ ] Integrate https://www.instagram.com/p/DWtQEn9kdvi/ into the portfolio section.
+- [ ] Integrate https://www.instagram.com/reel/DWbb8gCD3vM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [ ] Integrate https://www.instagram.com/reel/DWvYDixgRgh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [ ] Integrate https://www.instagram.com/reel/DVfrWwBEa21/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== into the portfolio section.
+- [ ] Test responsive layout, loading behavior, and fallback states for embedded Instagram content.
+- [ ] Deliver the updated site and note any Instagram platform constraints.
+- [ ] Prepare a copy-paste Windows setup guide for running the Max Media Marketing website locally.
+- [ ] Prepare a copy-paste Ubuntu setup guide for running the Max Media Marketing website locally.
